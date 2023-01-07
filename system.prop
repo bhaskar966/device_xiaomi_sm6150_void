@@ -64,6 +64,9 @@ ro.recovery.ui.margin_height=48
 # Priv-app permissions whitelist
 ro.control_privapp_permissions=log
 
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
+
 # WiFi
 wifi.interface=wlan0
 
