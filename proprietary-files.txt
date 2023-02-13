@@ -62,8 +62,8 @@ system_ext/framework/audiosphere.jar
 -vendor/lib/soundfx/libasphere.so
 -vendor/lib/soundfx/libshoebox.so
 -vendor/lib/soundfx/libmisoundfx.so
--vendor/lib/soundfx/libdirac.so
--vendor/lib64/soundfx/libdirac.so
+-vendor/lib/soundfx/libdirac.so|da2c2c47da3e729dc94038cd2953e620499b1fad
+-vendor/lib64/soundfx/libdirac.so|3d5484bdac3c6a53eb9ee60c6a47fe174524e5c3
 -vendor/lib/soundfx/libswvqe.so
 -vendor/lib64/soundfx/libswvqe.so
 vendor/lib/libstagefright_soft_qtiflacdec.so
@@ -180,7 +180,7 @@ vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 -vendor/lib64/libtinyxml2_1.so
 
 # Display - from NX627J 20201029.204053
--vendor/lib64/libsdedrm.so|582910d21139781ad9e414c35207584f51e035e2
+-vendor/lib64/libsdedrm.so|791c1ef98218b767f4c0c7fbb3ba53d7b04c0812
 
 # DPM
 framework/tcmclient.jar
@@ -256,7 +256,6 @@ vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 -vendor/lib64/libVkLayer_q3dtools.so|f72e09d4915e27c5b9a36c48ba482baca7438000
 -vendor/lib64/libadreno_app_profiles.so|1dfc3e93520c771417dcb4210e886fc395169a53
 -vendor/lib64/libadreno_utils.so|56b1d1b127eb571a584caf2ba12d5d069e9aed71
--vendor/lib64/libc2d30_bltlib.so|adbd12db0fbd7c840b75af49df450833afd9be58
 -vendor/lib64/libgpudataproducer.so|8d1b97e65e63bb8a0c37af54f38053028d9fcab9
 -vendor/lib64/libgsl.so|906445697a01e905f6b94136b1993694396e76db
 -vendor/lib64/libllvm-glnext.so|eaf5143a2aad128e86094cd3b65717efb7381a78
@@ -624,7 +623,7 @@ vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|84247a3563b362e97dacaa79d484
 vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
 vendor/lib/libdapparamstorage.so|6c488c6bc88abe13c6fd689124475526c1cf41b8
 vendor/lib/libdeccfg.so|28b3aa2368d091b50ef7d5f3c3d44466a89172f8
-vendor/lib/libqtigef.so|d2e8b296db9d8ff19051858ee1a0143e06c69df3
+vendor/lib/libqtigef.so|ef2f0eefe3b8b5e4d4bc559656de8c58cc461c01
 vendor/lib/libstagefright_soft_ac4dec.so|e1560136d7f16ed177e8f848fba3448014ea061c
 vendor/lib/libstagefright_soft_ddpdec.so|c1a83910911cdab332088b10b2d3675b735a9524
 vendor/lib/libstagefrightdolby.so|c4269437c623630cf9c79c2010a7cfb88828584a
@@ -648,3 +647,4 @@ vendor/lib64/vendor.dolby.hardware.dms@2.0.so|45ab26d743b6a56b505447012347493ff4
 
 # Xiaomi MAC
 -vendor/bin/nv_mac
+
